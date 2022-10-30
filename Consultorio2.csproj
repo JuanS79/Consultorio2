@@ -99,7 +99,7 @@
     <Content Include="Resources\login.png" />
     <Content Include="Turnero.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Registro_de_prueba.aspx" />
+    <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -134,12 +134,12 @@
     <Compile Include="Turnero.aspx.designer.cs">
       <DependentUpon>Turnero.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Registro_de_prueba.aspx.cs">
-      <DependentUpon>Registro_de_prueba.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Registro_de_prueba.aspx.designer.cs">
-      <DependentUpon>Registro_de_prueba.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
