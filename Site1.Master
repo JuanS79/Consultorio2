@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Consultorio2.Site1"%>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 1268px;
+            height: 299px;
+            margin-right: 0px;
+        }
+        .auto-style3 {
+            height: 347px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <br />
+            <br />
+            <br />
+            <table class="auto-style1">
+                <tr>
+                    <td colspan="2">
+                        <img alt="" class="auto-style2" src="Banner.png" /></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        Menu<br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                    <td class="auto-style3">&nbsp; <h1>Content</h1>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        Footer<br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
